@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #444444;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Seymour One', sans-serif;
+}
+
+#botao {
+    font-size: 2em;
+    padding: 1em 2em;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #4CAF50;
+    transition: background-color 0.2s;
+    font-family: 'Seymour One', sans-serif;
+}
+
+#botao:hover {
+    background-color: #3e8e41;
+}
+
+#contador {
+    font-size: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: white;
+}
+
+#reset {
+    font-size: 2em;
+    padding: 1em 2em;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #f03939;
+    transition: background-color 0.2s;
+    font-family: 'Seymour One', sans-serif;
+}
+
+#reset:hover {
+    background-color: #bd2323;
+}
